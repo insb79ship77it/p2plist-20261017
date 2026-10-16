@@ -91,6 +91,17 @@ blockquote{margin:32px 0 20px;padding:0 0 0 20px;border-left:4px solid var(--acc
 .faq details[open]{border-color:var(--accent)}
 .faq details p{padding:0 24px 20px;color:var(--muted);font-size:15.5px}
 
+/* 하위 페이지 공통 */
+.page{width:min(780px,calc(100% - 32px));margin:48px auto 0}
+.page section{margin-top:40px}
+.page h2{font-size:20px;font-weight:800;margin-bottom:10px;letter-spacing:-.02em}
+.page p{color:var(--muted)}
+.page .lead{margin-top:0;color:var(--ink)}
+.points{list-style:none;padding:0;display:grid;gap:10px}
+.points li{padding:16px 20px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);color:var(--muted);font-size:15.5px}
+.points b{display:block;color:var(--ink);margin-bottom:2px}
+.page .memo>div{grid-template-columns:140px 1fr}
+
 footer{margin-top:72px;padding:36px 16px 48px;text-align:center;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 footer nav{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 22px;margin-bottom:14px;font-weight:600}
 footer nav a:hover{color:var(--ink)}
